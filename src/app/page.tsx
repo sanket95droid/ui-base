@@ -13,6 +13,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
           <Link href="/products" className={buttonVariants()}>Recent Products</Link>
           <Button variant="ghost">All products &rarr;</Button>
+          <h5></h5>
         </div>
       </div>
     </MaxWidthWrapper>
